@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pizzeria</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header>
+    <nav class="navbar_container">
+      <a class="logo_container">
+        <img src="./img/pizza.png" alt="logo" class="navbar_logo" />Pizzería Riveros</a>
+    </nav>
+  </header>
+  <!-- HEADER -->
+  <!-- MAIN -->
+  <main>
+    <form class="form_container" id="register_form" novalidate>
+      <p class="form_title">Elija su Pizza</p>
+      <!-- id_Pizza -->
+      <div class="form_field">
+        <input type="number" placeholder="N° Pizza" class="form_input" id="number" autocomplete="off" />
+        <small></small>
+      </div>
+      <!-- id_Pizza -->
+
+      <input type="submit" class="form_submit_btn" value="Pedir" />
+    </form>
+    <div class="exito">
+      <h2>Pizza encontrada exitosamente!!</h2>
+    </div>
+    <section class="cards">
+      <h2>Pizza encontrada exitosamente!</h2>
+      <div class="cards_info">
+        <div class="card_info_conteiner">
+        </div>
+    </section>
+  </main>
+  <!-- MAIN -->
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p class="footer_text">
+      Hecho con ❤️ en <span class="text--gradient">Pizza-Riveros</span>
+    </p>
+  </footer>
+  <!-- FOOTER -->
+
+  <script src="./index.js"></script>
+</body>
+
+</html>
